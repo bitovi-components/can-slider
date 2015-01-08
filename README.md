@@ -1,6 +1,8 @@
 slider
 ======
 
+[![Build Status](https://travis-ci.org/bitovi-components/can-slider.png?branch=master)](https://travis-ci.org/bitovi-components/can-slider)
+
 A slider project that is usable in:
 
 - npm / browserify
