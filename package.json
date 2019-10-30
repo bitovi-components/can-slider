@@ -13,7 +13,7 @@
     "grunt": "~0.4.1",
     "grunt-cli": "^0.1.13",
     "steal": "bitovi/steal#npm",
-    "steal-qunit": "bitovi/steal-qunit#master",
+    "steal-qunit": "^2.0.0",
     "steal-tools": "bitovi/steal-tools#npm",
     "testee": "^0.1.8"
   },
