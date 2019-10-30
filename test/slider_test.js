@@ -7,11 +7,11 @@ import $ from "jquery";
 var template = can.stache("<can-slider></can-slider>");
 
 QUnit.module("can-slider",{
-	setup: function(){
+	beforeEach: function(assert) {
 		$("#qunit-fixture").append(template());
 	}
 });
 
-QUnit.test("basics", function(){
-	QUnit.ok( $("can-slider").html(), "has text");
+QUnit.test("basics", function(assert) {
+	assert.ok( $("can-slider").html(), "has text");
 });
